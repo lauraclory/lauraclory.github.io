@@ -1,0 +1,380 @@
+@import url(https://fonts.google.com/specimen/Gothic+A1?preview.text_type=custom);
+@import url(https://fonts.google.com/specimen/Kalam?preview.text_type=custom);
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+
+margin: 0;
+padding: 0;
+height: 100vh;
+
+}
+
+/**CAROUSEL**/
+
+#carousel {
+
+width: 100%;
+margin: 0 auto;
+
+}
+
+
+.carousel-item img {
+
+width: 100%;
+height: auto;
+
+
+}
+
+/** réglage Typo **/
+
+body {
+
+ font-size:15px;
+   
+}
+
+
+
+h1, h2, h3 {
+
+    font-family: 'Kalam', cursive;
+    text-transform: uppercase;
+    margin-top: 3%;
+    text-align:center;
+}
+
+
+
+h1, h2 {
+
+    color:black;
+}
+
+h1 {
+
+font-size: 3em;
+
+}
+ h2 {
+
+    font-size:2em;
+}
+
+h3 {
+
+    font-size:1.5em;
+}
+
+p {
+
+    font-family:'gothic A1', sans-serif;
+    margin-bottom:10px;
+   
+    text-align:center;
+
+}
+
+
+.titrenoscreations {
+
+background-color: rgb(188, 143, 143);
+width: 20vw;
+margin-left: 0;
+}
+
+.titreevenement {
+
+margin-left: 5%;
+background-color: rosybrown;
+width: 20vw;
+
+}
+
+.titrenewsletter {
+
+background-color: rosybrown;
+
+
+
+}
+
+
+
+.titrereseauxsociaux {
+
+background-color: rosybrown;
+
+
+
+
+}
+/** réglage Typo **/
+
+/* NAV */
+
+nav {
+
+    width:100%;
+    height:5vh;
+    background-color: rgb(36, 35, 35);
+    position:fixed;
+    top:0px;
+    padding: 10px;;
+   display: flex;
+}
+
+nav li {
+
+    display: inline;
+    
+}
+
+nav li a {
+
+    text-decoration:none;
+    cursor:pointer;
+    margin: 100px;
+    color: white;
+    font-family:'Kalam';
+ 
+}
+
+nav li a:hover {
+
+    text-decoration:underline;
+}
+
+/* NAV */
+
+/* HEADER*/
+
+
+
+/* HEADER */
+
+
+/*BUTTON*/
+
+
+.button {
+    font-family: 'Gothic A1';
+    font-size: 17px;
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    background-color:#ea6d00;
+    color: white;
+width: 15vw;
+padding: 10px;
+margin-top: 3%;
+display: block;
+margin: auto;
+cursor: pointer;
+transform: none;
+
+}
+
+
+.containerbutton {
+
+    display: flex;
+    justify-content: row;
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    justify-content: space-around;
+    max-width: 50%;
+    
+    }
+    
+.buttonhomme {
+
+    border-radius: 20px;
+    width: 15vw;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ea6d00;
+    color: white;
+     border: none;
+     font-family: "Gothic A1";
+}
+
+.buttonfemme  {
+
+
+border-radius: 20px;
+width: 15vw;
+padding: 10px;
+cursor: pointer;
+background-color: #ea6d00;
+color: white;
+border: none;
+font-family: "Gothic A1";
+}
+
+
+.buttonevenement {
+
+border-radius: 20px; 
+margin-left: 205%;
+width: 15vw;
+padding: 10px;
+background-color: #ea6d00;
+color: white;
+border: none;
+font-family: "Gothic A1";
+
+}
+
+
+
+button:hover{
+    opacity: 50%;
+}
+
+/*BUTTON*/
+
+/* SECTION */
+
+#section1 {
+
+display: flex;
+justify-content: center;
+margin-top: 5%;
+margin-bottom: 3%;
+
+}
+
+
+#section2 {
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 5%;
+
+
+}
+
+
+#section3 {
+
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+    
+
+}
+
+/**NOS CREATIONS**/ 
+/**EVENEMENT**/
+
+#nosproduits {
+
+height: 50vh;
+width: 40vw;
+object-fit: cover;
+display: flex;
+justify-content: center;
+margin-top: %;
+
+}
+
+
+/**FOOTER**/
+/**RESEAUXSOCIAUX*/
+
+#reseauxsociaux {
+
+background-color: rosybrown;
+max-width:60vw;
+height:27vh;
+display: flex;
+justify-content: space-around;
+margin: auto;
+margin-top: 3%;
+}
+
+.photoinsta {
+
+
+    height: 27vh;
+    width: 10vw;
+    object-fit: cover;
+}
+
+
+
+/** Formulaire **/
+
+
+#formulaire {
+
+    width:100%;
+    height:auto;
+   
+}
+
+form {
+
+    background-color: rgb(36, 35, 35);
+    border-radius:20px;
+    padding:30px;
+    width: 60%;
+    margin :0 auto;
+    margin-top: 3%;
+}
+
+input[type=text], input[type=email], textarea {
+
+    font-family: "Gothic A1";
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width:90%;
+    margin:10px auto;
+    padding:10px;
+    display:block;
+
+
+}
+
+input[type=submit] {
+
+    display: block;
+    margin:10px auto;
+    background-color: #ea6d00;
+    color:white;
+    font-family: "Gothic A1";
+    border-radius:20px;
+    padding:10px;
+    border:none;
+    width: 15vw;
+
+}
+
+
+
+/** Formulaire **/
+
+
+footer {
+
+    
+    height:700px;
+    background: linear-gradient(0deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,1) 100%) , url(images/background/high-angle-shot-of-beautiful-mountain-range-covered-with-snow-under-the-cloudy-sky.jpg) center 0 no-repeat fixed;
+}
+
